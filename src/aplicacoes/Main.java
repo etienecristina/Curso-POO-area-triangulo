@@ -29,5 +29,12 @@ public class Main {
         System.out.printf("A área do triângulo X é: %.2f ", areaX);
         System.out.printf("\nA área do triângulo Y é: %.2f ", areaY);
 
+        if (areaX > areaY){
+            System.out.println("\nA área do Triângulo X é maior.");
+        } else if (areaY > areaX){
+            System.out.println("\nA área do Triângulo Y é maior.");
+        } else{
+            System.out.println("\nOs triângulos X e Y possuem dimensões iguais.");
+        }
     }
 }
